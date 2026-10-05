@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body>
+
+<div class="container">
+
+    <h1>Workshop Registration</h1>
+
+    <label>Full Name</label>
+    <input type="text" id="studentName">
+
+    <label>Student ID</label>
+    <input type="text" id="studentId">
+
+    <label>Email</label>
+    <input type="email" id="email">
+
+    <label>Workshop</label>
+    <select id="workshop">
+        <option value="">Select Workshop</option>
+        <option value="Web Development">Web Development</option>
+        <option value="AI">AI</option>
+    </select>
+
+    <button onclick="registerStudent()">Register</button>
+    <button onclick="loadRegistration()">Load</button>
+    <button onclick="clearRegistration()">Clear</button>
+    <button type="button" onclick="showSavedRegistration()">
+    Show Saved Registration
+</button>
+
+<p id="savedMessage"></p>
+
+    <pre id="output"></pre>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</body>
+</html>
